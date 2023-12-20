@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T08:39:03.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="LIxrE-6UXv0C5_WAyjZf" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-20T09:03:55.185Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="y20qRcHxOIlh2UCZrLqN" version="22.1.11" type="github" pages="2">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="CypWeld框架图">
-    <mxGraphModel dx="2537" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3240" dy="1263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -374,6 +374,9 @@
         <mxCell id="orgdljrCCzQ4Cs2RfEQf-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="orgdljrCCzQ4Cs2RfEQf-35" target="orgdljrCCzQ4Cs2RfEQf-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="orgdljrCCzQ4Cs2RfEQf-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="orgdljrCCzQ4Cs2RfEQf-35" target="orgdljrCCzQ4Cs2RfEQf-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="orgdljrCCzQ4Cs2RfEQf-35" value="筋板&lt;br&gt;（几何体）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="480" y="590" width="120" height="60" as="geometry" />
         </mxCell>
@@ -383,20 +386,21 @@
         <mxCell id="orgdljrCCzQ4Cs2RfEQf-36" value="几何面" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="360" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="orgdljrCCzQ4Cs2RfEQf-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="orgdljrCCzQ4Cs2RfEQf-37" target="orgdljrCCzQ4Cs2RfEQf-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="orgdljrCCzQ4Cs2RfEQf-37" value="几何边" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="600" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="orgdljrCCzQ4Cs2RfEQf-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;strokeWidth=2;" edge="1" parent="1" source="orgdljrCCzQ4Cs2RfEQf-38" target="orgdljrCCzQ4Cs2RfEQf-48">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="950" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="orgdljrCCzQ4Cs2RfEQf-38" value="焊缝（组）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="600" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="770" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="orgdljrCCzQ4Cs2RfEQf-48" value="工作路径" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="600" y="950" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
